@@ -67,7 +67,7 @@ class Config:
     # ── Groq model catalogue ─────────────────────────────────────────────────
     available_models: tuple[str, ...] = (
         "llama-3.3-70b-versatile",
-        "llama3-8b-8192",
+        "llama-3.3-70b-versatile",
         "mixtral-8x7b-32768",
         "gemma2-9b-it",
     )
