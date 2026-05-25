@@ -63,7 +63,7 @@ cp .env.example .env
 Edit `.env`:
 ```env
 GROQ_API_KEY=gsk_your_actual_key_here
-GROQ_MODEL=llama3-70b-8192
+GROQ_MODEL=`llama-3.3-70b-versatile`
 ```
 
 Or configure directly in the **Settings** tab inside the app.
@@ -171,10 +171,10 @@ ai_desktop_engineer/
 
 | Model | Speed | Context | Best For |
 |---|---|---|---|
-| `llama3-70b-8192` | Fast | 8K | Best quality reviews |
-| `llama3-8b-8192` | Very Fast | 8K | Quick analysis |
-| `mixtral-8x7b-32768` | Fast | 32K | Large file reviews |
-| `gemma2-9b-it` | Fast | 8K | Code generation |
+| `llama-3.3-70b-versatile` | Fast | 8K | Best quality reviews |
+| `llama-3.3-70b-versatile` | Very Fast | 8K | Quick analysis |
+| `llama-3.3-70b-versatile` | Fast | 32K | Large file reviews |
+| `llama-3.3-70b-versatile` | Fast | 8K | Code generation |
 
 ---
 
