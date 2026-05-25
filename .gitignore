@@ -79,7 +79,6 @@ instance/
 
 # FastAPI
 .env
-.env.*
 *.env
 
 # Streamlit
