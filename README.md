@@ -1,6 +1,6 @@
 # ⬡ AI Desktop Engineer
 
-> A standalone, local-first AI code review and engineering assistant powered by Groq (Llama 3 / Mixtral).  
+> A standalone, local-first AI code review and engineering assistant powered by Groq (Llama 3).  
 > No webhooks. No servers. No ngrok. Just open and run.
 
 ---
@@ -63,7 +63,11 @@ cp .env.example .env
 Edit `.env`:
 ```env
 GROQ_API_KEY=gsk_your_actual_key_here
+<<<<<<< HEAD
 GROQ_MODEL=`llama-3.3-70b-versatile`
+=======
+GROQ_MODEL=llama-3.3-70b-versatile
+>>>>>>> e6c3eb4 (update model)
 ```
 
 Or configure directly in the **Settings** tab inside the app.
