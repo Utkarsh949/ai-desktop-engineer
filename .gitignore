@@ -1,0 +1,280 @@
+# =========================================================
+# Python .gitignore (Complete / Production Ready)
+# =========================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+share/python-wheels/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Type checker caches
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Ruff
+.ruff_cache/
+
+# Cython debug symbols
+cython_debug/
+
+# Django stuff
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff
+instance/
+.webassets-cache/
+
+# FastAPI
+.env
+.env.*
+*.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+.pdm-python
+.pdm-build/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+*.iml
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# Secrets / API Keys
+secret.key
+secrets.json
+config.json
+credentials.json
+*.pem
+*.key
+
+# dotenv
+.envrc
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.sqlite3
+
+# Machine Learning / AI
+mlruns/
+wandb/
+tensorboard/
+checkpoints/
+*.ckpt
+*.h5
+*.pth
+*.pt
+*.onnx
+
+# HuggingFace
+.cache/huggingface/
+huggingface/
+
+# TensorFlow
+events.out.tfevents.*
+
+# PyTorch Lightning
+lightning_logs/
+
+# Google Colab
+/content/
+
+# Docker
+docker-compose.override.yml
+
+# Kubernetes
+*.kubeconfig
+
+# Node.js (if using frontend with Python backend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React / Next.js build
+.next/
+out/
+
+# Static build files
+staticfiles/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Sphinx docs
+docs/_build/
+
+# mkdocs
+/site
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# coverage
+.coverage
+
+# Local runtime files
+*.pid
+*.seed
+
+# Backup files
+*.backup
+
+# Generated media
+media/
+uploads/
+
+# Firebase
+.firebase/
+
+# AWS
+.aws/
+
+# GCP
+.gcloud/
+
+# Azure
+.azure/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Serverless
+.serverless/
+
+# IDE history
+.history/
+
+# npm package lock optional
+package-lock.json
+
+# Yarn
+yarn.lock
+
+# pnpm
+pnpm-lock.yaml
+
+# =========================================================
+# End of .gitignore
+# =========================================================
